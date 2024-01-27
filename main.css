@@ -83,6 +83,25 @@ div.hero h2 {
     text-align: center;
 }
 
+.skip {
+    display: block;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+.skip:focus {
+    margin-top: -50px;
+}
+
+main article {
+    display: inline-block;
+    width: 100%;
+    max-width: 340px;
+    text-align: justify;
+    margin: 20px;
+}
+
+
 .container div.text-box {
     display: inline-block;
     width: 100%;
