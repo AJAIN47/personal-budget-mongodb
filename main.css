@@ -87,11 +87,11 @@ div.hero h2 {
     display: block;
     line-height: 50px;
     padding: 0 20px;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 
 .skip:focus {
-    margin-top: 0px;
+    margin-top: -50px;
 }
 
 main article {
