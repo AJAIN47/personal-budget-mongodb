@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 
+/* This is an A11y Change */
+/* I have increased the size from 10px to 12px as it was not accessible to mobile users */
 body {
-    font-size: 10px;
+    font-size: 12px;
     font-family: Tahoma, Arial;
 }
 
@@ -54,7 +56,7 @@ div.hero h2 {
 
 div.hero h1 {
     color: #fff;
-    font-size: 4.2em;
+    font-size: 3.2em;
     margin-bottom: 20px;
 }
 
@@ -94,15 +96,6 @@ div.hero h2 {
 }
 
 main article {
-    display: inline-block;
-    width: 100%;
-    max-width: 340px;
-    text-align: justify;
-    margin: 20px;
-}
-
-
-.container div.text-box {
     display: inline-block;
     width: 100%;
     max-width: 340px;
