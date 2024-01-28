@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en" xmlns:og="http://ogp.me/ns#">
 
 <head>
     <meta charset="UTF-8">
@@ -11,8 +12,16 @@
     <meta name="keywords" content="budget money debt expense free">
     <meta name="author" content="Alish Jain">
 
+    <!-- Open Graph Protocol -->
+    <!-- This is an SEO Change -->
+    <meta property="og:title" content="Personal Budget">
+    <meta property="og:description" content="An application for personal budget">
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
+
+    <!-- This is an SEO Change -->
+    <link rel="canonical" href="https://www.w3.org/Provider/Style/dummy.html">
 </head>
 
 <body>
@@ -23,7 +32,7 @@
         <!-- This is a Semantic HTML Change -->
         <nav aria-label="header-menu">
             <!-- This is an A11y Change -->
-            <!-- I have added role to navigation tag-->
+            <!-- I have added aria-label to navigation tag-->
             <ul>
                 <li><a href="#">Homepage</a></li>
                 <li><a href="about.html" id="about_page">About</a></li>
@@ -35,6 +44,8 @@
 
     <!-- This is a Semantic HTML Change -->
     <header>
+        <!-- This is an A11y Change -->
+        <!-- I have added aria-label and role-->
         <div class="hero" aria-label="Descriptive text about the image" role="img">
             <h1>Personal Budget</h1>
             <h2>A personal-budget management app</h2>
@@ -109,9 +120,11 @@
     </main>
 
     <!-- This is a Semantic HTML Change -->
-    <footer class="bottom">
+    <!-- This is an SEO Change -->
+    <footer class="bottom" itemscope itemtype="http://schema.org/WPFooter">
         <div class="center">
-            All rights reserved &copy; Alish Jain
+            All rights reserved &copy; <span itemprop="copyrightYear">2024</span> <span itemprop="copyrightHolder">Alish
+                Jain</span>
         </div>
     </footer>
 
