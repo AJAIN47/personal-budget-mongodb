@@ -6,10 +6,10 @@
 /* I have increased the size from 10px to 12px as it was not accessible to mobile users */
 body {
     font-size: 12px;
-    font-family: Tahoma, Arial;
+    font-family: sans-serif;
 }
 
-div.menu {
+nav {
     width: 100%;
     background-color: #4d5791;
     padding: 0 40px;
@@ -23,7 +23,7 @@ div.menu ul li {
     display: inline-block;
 }
 
-div.menu ul li a {
+nav ul li a {
     display: block;
     padding: 0 20px;
     line-height: 44px;
@@ -33,7 +33,7 @@ div.menu ul li a {
     margin: 0;
 }
 
-div.menu ul li a:hover {
+nav ul li a:hover {
     background-color: white;
     color: #4d5791;
 }
@@ -64,7 +64,7 @@ div.hero h2 {
     color: #4d5791;
 }
 
-.container {
+main {
     padding: 40px;
     width: 100%;
 }
@@ -106,6 +106,7 @@ main article {
 @media screen and (min-width: 768px) {
     main article {
         margin: 10px;
+        vertical-align: top;
     }
 }
 
