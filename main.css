@@ -116,10 +116,8 @@ main article {
     }
 }
 
-
-
 /* This is an A11y Change */
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     div.menu ul,
     div.menu ul li {
         display: block;
