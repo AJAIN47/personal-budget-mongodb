@@ -155,7 +155,7 @@
         }
 
         function getBudget() {
-            axios.get('/budget')
+            axios.get('http://localhost:3000/budget')
             .then(function (res) {
                 for (var i = 0; i < res.data.myBudget.length; i++) {
                     dataSource.datasets[0].data[i] = res.data.myBudget[i].budget;
@@ -202,7 +202,7 @@
 
         var color = d3.scale.ordinal();
 
-        axios.get('/budget').then(res => {
+        axios.get('http://localhost:3000/budget').then(res => {
             console.log(res);
             var data = res.data.myBudget.map(obj => {
                 return { label: obj.title, value: obj.budget, color: obj.color }
